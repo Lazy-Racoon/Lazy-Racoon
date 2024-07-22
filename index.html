@@ -21,6 +21,9 @@
       margin-bottom: 1rem;
       color: #2E236C;
     }
+    .card-title {
+      color: #433D8B;
+    }
   </style>
 </head>
 <body>
@@ -33,55 +36,290 @@
 
     <section id="about">
       <h2 class="section-title">About Us</h2>
-      <p>Lazyracoon LLC, founded by Ottally Wald and her husband Ariel Vernaza, specializes in providing top-tier nearshore software engineering services. Our team is dedicated to leveraging cutting-edge technology to deliver optimal solutions that drive business success.</p>
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text">Lazyracoon LLC, founded by Ottally Wald and her husband Ariel Vernaza, specializes in providing top-tier nearshore software engineering services. Our team is dedicated to leveraging cutting-edge technology to deliver optimal solutions that drive business success.</p>
+        </div>
+      </div>
     </section>
 
     <section id="services">
       <h2 class="section-title">Our Services</h2>
-      <ul>
-        <li>Staffing Nearshore Software Engineers</li>
-        <li>Custom Software Development</li>
-        <li>AI and Machine Learning Solutions</li>
-        <li>Web and Mobile Application Development</li>
-      </ul>
+      <div class="card">
+        <div class="card-body">
+          <ul>
+            <li>Staffing Nearshore Software Engineers</li>
+            <li>Custom Software Development</li>
+            <li>AI and Machine Learning Solutions</li>
+            <li>Web and Mobile Application Development</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section id="projects">
       <h2 class="section-title">Projects</h2>
-      <ul>
-        <li>Relic Hunter Mihaeru - Developed using Unity, C#, C++, and Python Django with deep reinforcement learning.</li>
-        <li>United Science Project</li>
-        <li>Farms2Friends</li>
-      </ul>
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Relic Hunter Mihaeru">
+            <div class="card-body">
+              <h5 class="card-title">Relic Hunter Mihaeru</h5>
+              <p class="card-text">Developed using Unity, C#, C++, and Python Django with deep reinforcement learning. This project showcases our expertise in game development and AI.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="United Science Project">
+            <div class="card-body">
+              <h5 class="card-title">United Science Project</h5>
+              <p class="card-text">A significant project highlighting our capability in handling complex scientific data and computations.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Farms2Friends">
+            <div class="card-body">
+              <h5 class="card-title">Farms2Friends</h5>
+              <p class="card-text">An innovative marketplace connecting producers with consumers, demonstrating our proficiency in full-stack development and marketplace solutions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="skills">
       <h2 class="section-title">Technologies We Use</h2>
       <div class="row">
         <div class="col-md-3 col-sm-6">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class="img-fluid" alt="Python">
-          <p>Python</p>
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class="card-img-top" alt="Python">
+            <div class="card-body">
+              <h5 class="card-title">Python</h5>
+            </div>
+          </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" class="img-fluid" alt="Ruby">
-          <p>Ruby</p>
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" class="card-img-top" alt="Ruby">
+            <div class="card-body">
+              <h5 class="card-title">Ruby</h5>
+            </div>
+          </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" class="img-fluid" alt="Java">
-          <p>Java</p>
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" class="card-img-top" alt="Java">
+            <div class="card-body">
+              <h5 class="card-title">Java</h5>
+            </div>
+          </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" class="img-fluid" alt="C++">
-          <p>C++</p>
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" class="card-img-top" alt="C++">
+            <div class="card-body">
+              <h5 class="card-title">C++</h5>
+            </div>
+          </div>
         </div>
-        <!-- Add more technologies as needed -->
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" class="card-img-top" alt="JavaScript">
+            <div class="card-body">
+              <h5 class="card-title">JavaScript</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" class="card-img-top" alt="TypeScript">
+            <div class="card-body">
+              <h5 class="card-title">TypeScript</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" class="card-img-top" alt="Kotlin">
+            <div class="card-body">
+              <h5 class="card-title">Kotlin</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Swift_logo.svg" class="card-img-top" alt="Swift">
+            <div class="card-body">
+              <h5 class="card-title">Swift</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png" class="card-img-top" alt="C#">
+            <div class="card-body">
+              <h5 class="card-title">C#</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" class="card-img-top" alt="PHP">
+            <div class="card-body">
+              <h5 class="card-title">PHP</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg" class="card-img-top" alt="Django">
+            <div class="card-body">
+              <h5 class="card-title">Django</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" class="card-img-top" alt="Rails">
+            <div class="card-body">
+              <h5 class="card-title">Rails</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" class="card-img-top" alt="Next.js">
+            <div class="card-body">
+              <h5 class="card-title">Next.js</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" class="card-img-top" alt="React">
+            <div class="card-body">
+              <h5 class="card-title">React</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" class="card-img-top" alt="React Native">
+            <div class="card-body">
+              <h5 class="card-title">React Native</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" class="card-img-top" alt="GraphQL">
+            <div class="card-body">
+              <h5 class="card-title">GraphQL</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg" class="card-img-top" alt="Spring">
+            <div class="card-body">
+              <h5 class="card-title">Spring</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://miro.medium.com/v2/resize:fit:1400/1*i2fRBk3GsYLeUk_Rh7AzHw.png" class="card-img-top" alt="Express.js">
+            <div class="card-body">
+              <h5 class="card-title">Express.js</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg" class="card-img-top" alt="Flask">
+            <div class="card-body">
+              <h5 class="card-title">Flask</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg" class="card-img-top" alt="Laravel">
+            <div class="card-body">
+              <h5 class="card-title">Laravel</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" class="card-img-top" alt="TensorFlow">
+            <div class="card-body">
+              <h5 class="card-title">TensorFlow</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" class="card-img-top" alt="Keras">
+            <div class="card-body">
+              <h5 class="card-title">Keras</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" class="card-img-top" alt="PyTorch">
+            <div class="card-body">
+              <h5 class="card-title">PyTorch</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" class="card-img-top" alt="Jupyter">
+            <div class="card-body">
+              <h5 class="card-title">Jupyter</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" class="card-img-top" alt="Scikit-learn">
+            <div class="card-body">
+              <h5 class="card-title">Scikit-learn</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" class="card-img-top" alt="Seaborn">
+            <div class="card-body">
+              <h5 class="card-title">Seaborn</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg" class="card-img-top" alt="ROS">
+            <div class="card-body">
+              <h5 class="card-title">ROS</h5>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="contact">
       <h2 class="section-title">Contact Us</h2>
-      <p>Address: 2465, 447 Broadway, 2nd Floor, New York, NY, New York, US, 10013</p>
-      <p>Email: ottally@lazyracoon.tech</p>
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text">Address: 2465, 447 Broadway, 2nd Floor, New York, NY, New York, US, 10013</p>
+          <p class="card-text">Email: <a href="mailto:ottally@lazyracoon.tech">ottally@lazyracoon.tech</a></p>
+        </div>
+      </div>
     </section>
   </div>
 
