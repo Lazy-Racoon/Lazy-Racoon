@@ -1,330 +1,393 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Lazyracoon LLC</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="path/to/main.css">
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
-      background-color: #f8f9fa;
-    }
-    .jumbotron {
-      background-color: #17153B;
-      color: white;
-      padding: 2rem;
-      margin-bottom: 2rem;
-    }
-    .section-title {
-      margin-top: 2rem;
-      margin-bottom: 1rem;
-      color: #2E236C;
-    }
-    .card-title {
-      color: #433D8B;
-    }
-  </style>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
 </head>
-<body>
 
-  <div class="container">
-    <div class="jumbotron text-center">
-      <h1 class="display-4">Welcome to Lazyracoon LLC</h1>
-      <p class="lead">Your trusted partner in nearshore software engineering.</p>
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+      <a href="#hero" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">Lazyracoon</h1><span>.</span>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Technologies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <a class="btn-getstarted" href="#about">Get Started</a>
     </div>
+  </header>
 
-    <section id="about">
-      <h2 class="section-title">About Us</h2>
-      <div class="card">
-        <div class="card-body">
-          <p class="card-text">Lazyracoon LLC, founded by Ottally Wald and her husband Ariel Vernaza, specializes in providing top-tier nearshore software engineering services. Our team is dedicated to leveraging cutting-edge technology to deliver optimal solutions that drive business success.</p>
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10">
+            <h2 data-aos="fade-up" data-aos-delay="100">Welcome to Lazyracoon LLC</h2>
+            <p data-aos="fade-up" data-aos-delay="200">Your trusted partner in nearshore software engineering.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="services">
-      <h2 class="section-title">Our Services</h2>
-      <div class="card">
-        <div class="card-body">
+    <!-- About Section -->
+    <section id="about" class="about section light-background">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-xl-center gy-5">
+          <div class="col-xl-5 content">
+            <h3>About Us</h3>
+            <p>Lazyracoon LLC, founded by Ottally Wald and her husband Ariel Vernaza, specializes in providing top-tier nearshore software engineering services. Our team is dedicated to leveraging cutting-edge technology to deliver optimal solutions that drive business success.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>We offer a range of services to meet your software engineering needs.</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">Staffing Nearshore Software Engineers</a></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">Custom Software Development</a></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">AI and Machine Learning Solutions</a></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">Web and Mobile Application Development</a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+        <p>Explore our recent projects.</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Relic Hunter Mihaeru">
+              <div class="card-body">
+                <h5 class="card-title">Relic Hunter Mihaeru</h5>
+                <p class="card-text">Developed using Unity, C#, C++, and Python Django with deep reinforcement learning.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card" data-aos="fade-up" data-aos-delay="200">
+              <img src="https://via.placeholder.com/150" class="card-img-top" alt="United Science Project">
+              <div class="card-body">
+                <h5 class="card-title">United Science Project</h5>
+                <p class="card-text">A significant project highlighting our capability in handling complex scientific data and computations.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card" data-aos="fade-up" data-aos-delay="300">
+              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Farms2Friends">
+              <div class="card-body">
+                <h5 class="card-title">Farms2Friends</h5>
+                <p class="card-text">An innovative marketplace connecting producers with consumers, demonstrating our proficiency in full-stack development and marketplace solutions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Technologies We Use</h2>
+        <p>Our expertise spans a wide range of technologies.</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-md-3 col-sm-6">
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class="card-img-top" alt="Python">
+              <div class="card-body">
+                <h5 class="card-title">Python</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card" data-aos="fade-up" data-aos-delay="200">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" class="card-img-top" alt="Ruby">
+              <div class="card-body">
+                <h5 class="card-title">Ruby</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card" data-aos="fade-up" data-aos-delay="300">
+              <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" class="card-img-top" alt="Java">
+              <div class="card-body">
+                <h5 class="card-title">Java</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card" data-aos="fade-up" data-aos-delay="400">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" class="card-img-top" alt="C++">
+              <div class="card-body">
+                <h5 class="card-title">C++</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card" data-aos="fade-up" data-aos-delay="500">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" class="card-img-top" alt="JavaScript">
+              <div class="card-body">
+                <h5 class="card-title">JavaScript</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card" data-aos="fade-up" data-aos-delay="600">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" class="card-img-top" alt="TypeScript">
+              <div class="card-body">
+                <h5 class="card-title">TypeScript</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card" data-aos="fade-up" data-aos-delay="700">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" class="card-img-top" alt="Kotlin">
+              <div class="card-body">
+                <h5 class="card-title">Kotlin</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card" data-aos="fade-up" data-aos-delay="800">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Swift_logo.svg" class="card-img-top" alt="Swift">
+              <div class="card-body">
+                <h5 class="card-title">Swift</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card" data-aos="fade-up" data-aos-delay="900">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png" class="card-img-top" alt="C#">
+              <div class="card-body">
+                <h5 class="card-title">C#</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card" data-aos="fade-up" data-aos-delay="1000">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" class="card-img-top" alt="PHP">
+              <div class="card-body">
+                <h5 class="card-title">PHP</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card" data-aos="fade-up" data-aos-delay="1100">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg" class="card-img-top" alt="Django">
+              <div class="card-body">
+                <h5 class="card-title">Django</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card" data-aos="fade-up" data-aos-delay="1200">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" class="card-img-top" alt="Rails">
+              <div class="card-body">
+                <h5 class="card-title">Rails</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Get in touch with us.</p>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>2465, 447 Broadway, 2nd Floor, New York, NY, New York, US, 10013</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="300">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p><a href="mailto:ottally@lazyracoon.tech">ottally@lazyracoon.tech</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+                <div class="col-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+                <div class="col-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+                <div class="col-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <button type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="#hero" class="logo d-flex align-items-center">
+            <span class="sitename">Lazyracoon</span>
+          </a>
+          <p>Innovative solutions and dedicated services for your software engineering needs.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
           <ul>
-            <li>Staffing Nearshore Software Engineers</li>
-            <li>Custom Software Development</li>
-            <li>AI and Machine Learning Solutions</li>
-            <li>Web and Mobile Application Development</li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-      </div>
-    </section>
-
-    <section id="projects">
-      <h2 class="section-title">Projects</h2>
-      <div class="row">
-        <div class="col-md-4 col-sm-6">
-          <div class="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Relic Hunter Mihaeru">
-            <div class="card-body">
-              <h5 class="card-title">Relic Hunter Mihaeru</h5>
-              <p class="card-text">Developed using Unity, C#, C++, and Python Django with deep reinforcement learning. This project showcases our expertise in game development and AI.</p>
-            </div>
-          </div>
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Staffing</a></li>
+            <li><a href="#">Software Development</a></li>
+            <li><a href="#">AI Solutions</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Mobile Development</a></li>
+          </ul>
         </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="United Science Project">
-            <div class="card-body">
-              <h5 class="card-title">United Science Project</h5>
-              <p class="card-text">A significant project highlighting our capability in handling complex scientific data and computations.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Farms2Friends">
-            <div class="card-body">
-              <h5 class="card-title">Farms2Friends</h5>
-              <p class="card-text">An innovative marketplace connecting producers with consumers, demonstrating our proficiency in full-stack development and marketplace solutions.</p>
-            </div>
-          </div>
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>
+            2465, 447 Broadway, 2nd Floor<br>
+            New York, NY, New York, US, 10013<br>
+            <strong>Email:</strong> <a href="mailto:ottally@lazyracoon.tech">ottally@lazyracoon.tech</a><br>
+          </p>
         </div>
       </div>
-    </section>
+    </div>
+    <div class="container copyright text-center mt-4">
+      <p>© Copyright <strong>Lazyracoon</strong>. All Rights Reserved</p>
+    </div>
+  </footer>
 
-    <section id="skills">
-      <h2 class="section-title">Technologies We Use</h2>
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class="card-img-top" alt="Python">
-            <div class="card-body">
-              <h5 class="card-title">Python</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" class="card-img-top" alt="Ruby">
-            <div class="card-body">
-              <h5 class="card-title">Ruby</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" class="card-img-top" alt="Java">
-            <div class="card-body">
-              <h5 class="card-title">Java</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" class="card-img-top" alt="C++">
-            <div class="card-body">
-              <h5 class="card-title">C++</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" class="card-img-top" alt="JavaScript">
-            <div class="card-body">
-              <h5 class="card-title">JavaScript</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" class="card-img-top" alt="TypeScript">
-            <div class="card-body">
-              <h5 class="card-title">TypeScript</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" class="card-img-top" alt="Kotlin">
-            <div class="card-body">
-              <h5 class="card-title">Kotlin</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Swift_logo.svg" class="card-img-top" alt="Swift">
-            <div class="card-body">
-              <h5 class="card-title">Swift</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png" class="card-img-top" alt="C#">
-            <div class="card-body">
-              <h5 class="card-title">C#</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" class="card-img-top" alt="PHP">
-            <div class="card-body">
-              <h5 class="card-title">PHP</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg" class="card-img-top" alt="Django">
-            <div class="card-body">
-              <h5 class="card-title">Django</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" class="card-img-top" alt="Rails">
-            <div class="card-body">
-              <h5 class="card-title">Rails</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" class="card-img-top" alt="Next.js">
-            <div class="card-body">
-              <h5 class="card-title">Next.js</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" class="card-img-top" alt="React">
-            <div class="card-body">
-              <h5 class="card-title">React</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" class="card-img-top" alt="React Native">
-            <div class="card-body">
-              <h5 class="card-title">React Native</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" class="card-img-top" alt="GraphQL">
-            <div class="card-body">
-              <h5 class="card-title">GraphQL</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg" class="card-img-top" alt="Spring">
-            <div class="card-body">
-              <h5 class="card-title">Spring</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://miro.medium.com/v2/resize:fit:1400/1*i2fRBk3GsYLeUk_Rh7AzHw.png" class="card-img-top" alt="Express.js">
-            <div class="card-body">
-              <h5 class="card-title">Express.js</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg" class="card-img-top" alt="Flask">
-            <div class="card-body">
-              <h5 class="card-title">Flask</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg" class="card-img-top" alt="Laravel">
-            <div class="card-body">
-              <h5 class="card-title">Laravel</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" class="card-img-top" alt="TensorFlow">
-            <div class="card-body">
-              <h5 class="card-title">TensorFlow</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" class="card-img-top" alt="Keras">
-            <div class="card-body">
-              <h5 class="card-title">Keras</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" class="card-img-top" alt="PyTorch">
-            <div class="card-body">
-              <h5 class="card-title">PyTorch</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" class="card-img-top" alt="Jupyter">
-            <div class="card-body">
-              <h5 class="card-title">Jupyter</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" class="card-img-top" alt="Scikit-learn">
-            <div class="card-body">
-              <h5 class="card-title">Scikit-learn</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" class="card-img-top" alt="Seaborn">
-            <div class="card-body">
-              <h5 class="card-title">Seaborn</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg" class="card-img-top" alt="ROS">
-            <div class="card-body">
-              <h5 class="card-title">ROS</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
 
-    <section id="contact">
-      <h2 class="section-title">Contact Us</h2>
-      <div class="card">
-        <div class="card-body">
-          <p class="card-text">Address: 2465, 447 Broadway, 2nd Floor, New York, NY, New York, US, 10013</p>
-          <p class="card-text">Email: <a href="mailto:ottally@lazyracoon.tech">ottally@lazyracoon.tech</a></p>
-        </div>
-      </div>
-    </section>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="path/to/main.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
+
 </html>
