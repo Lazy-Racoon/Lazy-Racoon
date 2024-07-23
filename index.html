@@ -32,22 +32,23 @@
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">      
       <a href="#hero" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="assets/img/lazyracoon_logo.png" alt="Lazyracoon Logo" style="height: 50px; margin-right: 10px;">
         <h1 class="sitename">Lazyracoon</h1><span>.</span>
       </a>
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Technologies</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-      <a class="btn-getstarted" href="#about">Get Started</a>
+      <a class="btn-getstarted" href="#services">Get Started</a>
     </div>
 
     <style>
@@ -66,9 +67,10 @@
       }
       .owner-card img {
       height: 200px;
+      width: 200px;
       object-fit: cover;
       border-radius: 50%;
-      margin: 20px 0;
+      margin: 20px auto;
     }
     .owner-card {
       margin-bottom: 20px;
@@ -152,7 +154,7 @@
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6">
             <div class="card" data-aos="fade-up" data-aos-delay="100">
-              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Relic Hunter Mihaeru">
+              <img src="assets/img/GameTitle.png" class="card-img-top" alt="Relic Hunter Mihaeru">
               <div class="card-body">
                 <h5 class="card-title">Relic Hunter Mihaeru</h5>
                 <p class="card-text">Developed using Unity, C#, C++, and Python Django with deep reinforcement learning.</p>
@@ -161,18 +163,18 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="card" data-aos="fade-up" data-aos-delay="200">
-              <img src="https://via.placeholder.com/150" class="card-img-top" alt="United Science Project">
+              <img src="https://repository-images.githubusercontent.com/159092841/abdff22c-af76-453e-9374-4e1851c7a0c6" class="card-img-top" alt="United Science Project">
               <div class="card-body">
-                <h5 class="card-title">United Science Project</h5>
-                <p class="card-text">A significant project highlighting our capability in handling complex scientific data and computations.</p>
+                <h5 class="card-title">ar_drone_wrapper</h5>
+                <p class="card-text">This ROS package controls a Parrot AR Drone, interfacing via ROS topics for commands, navigation data, and camera images.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="card" data-aos="fade-up" data-aos-delay="300">
-              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Farms2Friends">
+              <img src="assets/img/Farms2Friends.png" class="card-img-top" alt="Farms2Friends">
               <div class="card-body">
-                <h5 class="card-title">Farms2Friends</h5>
+                <h5 class="card-title">Farms2Friends, comming soon...</h5>
                 <p class="card-text">An innovative marketplace connecting producers with consumers, demonstrating our proficiency in full-stack development and marketplace solutions.</p>
               </div>
             </div>
@@ -430,12 +432,14 @@
             </div>
             <div class="col-md-6 owner-card" data-aos="fade-up" data-aos-delay="200">
               <div class="card">
-                <img src="path/to/ariel.jpg" class="card-img-top" alt="Ariel Vernaza">
+                <a href="https://dsapandora.lazyracoon.tech/">
+                  <img src="assets/img/profile.jpg" class="card-img-top" alt="Ariel Vernaza">
+                </a>
                 <div class="card-body">
                   <h5 class="card-title">Ariel Vernaza</h5>
                   <p class="card-text">Co-Founder, Senior Software Engineer</p>
                   <p>Ariel Vernaza is a senior software engineer with extensive experience in full-stack development, AI, and machine learning solutions.</p>
-                  <p><strong>Email:</strong> <a href="mailto:ariel@lazyracoon.tech">ariel@lazyracoon.tech</a></p>
+                  <p><strong>Email:</strong> <a href="mailto:ariel@lazyracoon.tech">ariel@lazyracoon.tech</a></p>                                
                 </div>
               </div>
             </div>
